@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.protagonist {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #ff676d;
+}
+
+.protagonist h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.slide-row {
+    display: flex;
+    width: 5000px;
+    transition: 1s ease;
+    /* margin-top: 40px; */
+    /* don't give margin, it disrupts the img's border radius property. */
+}
+
+.slide-col {
+    position: relative;
+    width: 800px;
+    height: 400px;
+}
+
+.user-img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+}
+
+.user-img img {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.user-text {
+    position: absolute;
+    background: #2d3a59;
+    width: 550px;
+    height: 270px;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px;
+    color: #d3d4d6;
+    padding: 45px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.ben-text {
+    width: 520px;
+}
+
+.user-text p {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.user-text h3 {
+    margin: 35px 0px 5px;
+    color: #fff;
+}
+
+.container {
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.indicator {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -50px;
+}
+
+.btn {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.active {
+    width: 45px;
+}
+
+.testimonials {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
