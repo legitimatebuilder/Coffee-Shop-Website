@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="./CSS/gallery.css">
+    <script src="./JS/gallery.js" defer></script>
+</head>
+
+<body>
+    <section class="gallery-contents-one">
+        <div class="full-image-one" id="full-image-box-one">
+            <img src="./CSS/Images/gallery-1.jpg" id="full-img-one">
+            <span onclick="closeFullImgOne()">X</span>
+        </div>
+        <div class="image-gallery-one">
+            <img src="./CSS/Images/gallery-1.jpg" height="230" onclick="openFullImgOne(this.src)">
+            <img src="./CSS/Images/gallery-2.jpg" onclick="openFullImgOne(this.src)">
+            <img src="./CSS/Images/gallery-3.jpg" height="230" onclick="openFullImgOne(this.src)">
+            <img src="./CSS/Images/gallery-4.jpg" onclick="openFullImgOne(this.src)">
+            <img src="./CSS/Images/gallery-5.jpg" onclick="openFullImgOne(this.src)">
+            <img src="./CSS/Images/gallery-6.jpg" onclick="openFullImgOne(this.src)">
+        </div>
+    </section>
+
+    <section class="gallery-contents-two">
+        <div class="full-image-two" id="full-image-box-two">
+            <img src="./CSS/Images/gallery-7.jpg" id="full-img-two">
+            <span onclick="closeFullImgTwo()">X</span>
+        </div>
+        <div class="image-gallery-two">
+            <img src="./CSS/Images/gallery-7.jpg" height="230" onclick="openFullImgTwo(this.src)">
+            <img src="./CSS/Images/gallery-8.jpg" onclick="openFullImgTwo(this.src)">
+            <img src="./CSS/Images/gallery-9.jpg" onclick="openFullImgTwo(this.src)">
+            <img src="./CSS/Images/gallery-10.jpg" onclick="openFullImgTwo(this.src)">
+            <img src="./CSS/Images/gallery-11.jpg" onclick="openFullImgTwo(this.src)">
+            <img src="./CSS/Images/gallery-12.jpg" onclick="openFullImgTwo(this.src)">
+        </div>
+    </section>
+</body>
+
+</html>
